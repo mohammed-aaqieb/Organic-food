@@ -128,7 +128,7 @@ const products = [{
     {
         name: "Organic Tomato",
         category: "vegetable",
-        image: "./assets/images/vegetables/tomato.png",
+        image: "./assets/images/vegetables/Tomato.jpg",
         description: "Fresh organic tomatoes, perfect for salads and cooking",
         price: 60
     },
