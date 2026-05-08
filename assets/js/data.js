@@ -1,3 +1,45 @@
 // Data module for products and cart
-const products = [];
-export default products;
+const products = [{
+        name: "Organic Banana",
+        image: "./assets/images/fruits/Banana.jpg",
+        description: "Fresh and sweet organic bananas, perfect for smoothies",
+        price: 80
+    },
+    {
+        name: "Organic Apple",
+        image: "./assets/images/fruits/apple.jpg",
+        description: "Crisp and juicy organic apples, great for nutrition",
+        price: 130
+    },
+    {
+        name: "Organic Orange",
+        image: "./assets/images/fruits/Orange.jpg",
+        description: "Refreshing and tangy organic oranges, ideal for juicing",
+        price: 100
+    },
+    {
+        name: "Organic Avocado",
+        image: "./assets/images/fruits/avocado.jpg",
+        description: "Nutritious avocados, perfect for salads and smoothies",
+        price: 150
+    },
+    {
+        name: "Organic Kiwi",
+        image: "./assets/images/fruits/kiwi.jpg",
+        description: "Tart and Sweet organic kiwis, packed with vitamin c",
+        price: 150
+    },
+    {
+        name: "Organic Strawberry",
+        image: "./assets/images/fruits/strawberry.jpg",
+        description: "Sweet and juicy organic strawberries, perfect for desserts",
+        price: 200
+    },
+    {
+        name: "Organic Watermelon",
+        image: "./assets/images/fruits/watermelon.jpg",
+        description: "Juicy and refreshing organic watermelons, perfect for hot days",
+        price: 180
+    }
+];
+// export default products;    // showing error screen

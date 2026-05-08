@@ -1,4 +1,22 @@
-/* Products page styles */
-h1 {
-    color: #3a6f3a;
-}
+            /* Products page styles */
+            
+            h1 {
+                color: #3a6f3a;
+            }
+            
+            .products {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            
+            body {
+                background-color: beige;
+                ;
+            }
+            
+            .product-card img {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+            }
