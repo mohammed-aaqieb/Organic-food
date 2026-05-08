@@ -112,6 +112,20 @@ const products = [{
         price: 150
     },
     {
+        name: "Organic Strawberry",
+        category: "fruit",
+        image: "./assets/images/fruits/Strawberry.jpg",
+        description: "Sweet and juicy organic strawberries, perfect for desserts",
+        price: 200
+    },
+    {
+        name: "Organic Watermelon",
+        category: "fruit",
+        image: "./assets/images/fruits/watermelon.jpg",
+        description: "Juicy and refreshing organic watermelons, perfect for hot days",
+        price: 180
+    },
+    {
         name: "Organic Tomato",
         category: "vegetable",
         image: "./assets/images/vegetables/tomato.png",
