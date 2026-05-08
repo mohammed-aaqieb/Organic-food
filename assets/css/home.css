@@ -1,4 +1,19 @@
-/* Home page styles */
-h1 {
-    color: #2a7f2a;
+    /* Home page styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+#heroimg {
+        background-image: url("/assets/images/banners/hero3.jpg");
+        background-size: cover;
+        height: 120vh;
+    }
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
