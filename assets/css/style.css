@@ -4,7 +4,6 @@ body{
     padding:0;
 }
 
-/* Navbar */
 .navbar{
     display:flex;
 
@@ -12,27 +11,62 @@ body{
 
     justify-content:space-between;
 
-    padding:10px 40px;
+    padding:0px 40px;
 
-    background:#2F5F5C;
+    background:#256f46;
+
+    min-height:65px;
+    height: 65px;
+    position:relative;
+
+    overflow:visible;
 }
 
-/* Logo */
-.logo img{
-    height:70px;
-    width:auto;
+/* Left + Right sections */
 
-    display:block;
+.nav-left,
+.nav-right{
+    width:120px;
+    position:relative;
+    display:flex;
+
+    align-items:center;
 }
 
-/* Nav links container */
+/* Cart icon right */
+
+.nav-right{
+    justify-content:flex-end;
+}
+
+.cart-icon{
+    width:34px;
+
+    height:34px;
+
+    cursor:pointer;
+
+    transition:0.3s ease;
+}
+
+.cart-icon:hover{
+    transform:scale(1.1);
+}
+
+/* Center navigation */
+
 .nav-links{
     display:flex;
 
+    justify-content:center;
+
     gap:30px;
+
+    flex:1;
 }
 
 /* Links */
+
 .navbar a{
     text-decoration:none;
 
@@ -45,6 +79,7 @@ body{
     padding:8px 18px;
 
     font-size:15px;
+
     font-weight:600;
 
     transition:0.3s ease;
@@ -52,4 +87,20 @@ body{
 
 .navbar a:hover{
     background:#4D8577;
+}
+
+/* Large logo without enlarging navbar */
+
+.logo{
+    height:85px;
+
+    width:auto;
+
+    position:absolute;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    left:0;
 }
