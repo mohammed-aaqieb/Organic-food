@@ -9,7 +9,7 @@ products.forEach((product) => {
       <h3>${product.name}</h3>
       <p>${product.description}</p>
       <h4>${product.price}</h4>
-      <button>Buy Now</button>
+      <button>Add to cart</button>
     </div>
   `;
 });
