@@ -1,22 +1,67 @@
-            /* Products page styles */
-            
-            h1 {
-                color: #3a6f3a;
-            }
-            
-            .products {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-around;
-            }
-            
-            body {
-                background-color: beige;
-                ;
-            }
-            
-            .product-card img {
-                width: 200px;
-                height: 200px;
-                object-fit: cover;
-            }
+                /* Products page styles body { */
+                
+                body {
+                    background: #f5f0e6;
+                    font-family: Poppins, sans-serif;
+                }
+                
+                .products {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                    gap: 30px;
+                    padding: 40px;
+                }
+                
+                .product-card {
+                    background: white;
+                    border-radius: 24px;
+                    padding: 20px;
+                    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+                    transition: 0.3s;
+                    text-align: center;
+                }
+                
+                .product-card:hover {
+                    transform: translateY(-8px);
+                }
+                
+                .product-card img {
+                    width: 220px;
+                    height: 220px;
+                    object-fit: cover;
+                    border-radius: 18px;
+                    display: block;
+                    margin: 0 auto;
+                }
+                
+                .product-card h3 {
+                    margin-top: 20px;
+                    color: #2f2f2f;
+                    font-size: 28px;
+                }
+                
+                .product-card p {
+                    color: #666;
+                    line-height: 1.6;
+                    margin: 15px 0;
+                }
+                
+                .product-card h4 {
+                    color: #2e8b57;
+                    font-size: 24px;
+                }
+                
+                .product-card button {
+                    margin-top: 15px;
+                    background: #2e8b57;
+                    color: white;
+                    border: none;
+                    padding: 12px 24px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    transition: 0.3s;
+                }
+                
+                .product-card button:hover {
+                    background: #256f46;
+                }

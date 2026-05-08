@@ -19,7 +19,7 @@ const products = [{
     },
     {
         name: "Organic Avocado",
-        image: "./assets/images/fruits/avocado.jpg",
+        image: "./assets/images/fruits/Avocadoo.jpg",
         description: "Nutritious avocados, perfect for salads and smoothies",
         price: 150
     },
@@ -39,6 +39,20 @@ const products = [{
         name: "Organic Watermelon",
         image: "./assets/images/fruits/watermelon.jpg",
         description: "Juicy and refreshing organic watermelons, perfect for hot days",
+        price: 180
+
+
+    },
+    {
+        name: "Organic Pineapple",
+        image: "./assets/images/fruits/pineapple1.jpg",
+        description: "Tropical and Sweet organic pineapples,",
+        price: 140
+    },
+    {
+        name: "Organic Mango",
+        image: "./assets/images/fruits/mango.jpg",
+        description: "pulpy and sweet organic mangoes, perfect for desserts ",
         price: 180
     }
 ];
