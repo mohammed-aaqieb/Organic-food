@@ -443,3 +443,340 @@
 
     line-height:1.7;
 }
+
+/* =========================
+   Featured Products
+========================= */
+
+.featured-products{
+    padding:110px 80px;
+
+    background:#F5F3EE;
+}
+
+/* Grid */
+
+.products-grid{
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(260px,1fr));
+
+    gap:35px;
+}
+
+/* Card */
+
+.featured-card{
+    background:white;
+
+    border-radius:28px;
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:
+    0 8px 25px rgba(0,0,0,0.08);
+
+    transition:0.3s ease;
+}
+
+.featured-card:hover{
+    transform:translateY(-8px);
+}
+
+/* Images */
+
+.featured-card img{
+    width:100%;
+
+    height:240px;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+    margin-bottom:20px;
+}
+
+/* Title */
+
+.featured-card h3{
+    color:#2F5F5C;
+
+    font-size:24px;
+
+    margin-bottom:15px;
+}
+
+/* Description */
+
+.featured-card p{
+    color:#666;
+
+    line-height:1.7;
+
+    font-size:15px;
+
+    margin-bottom:18px;
+}
+
+/* Price */
+
+.featured-card h4{
+    color:#4D8577;
+
+    font-size:22px;
+
+    margin-bottom:22px;
+}
+
+/* Button */
+
+.product-btn{
+    display:inline-block;
+
+    text-decoration:none;
+
+    background:#2F5F5C;
+
+    color:#F5F3EE;
+
+    padding:12px 28px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:0.3s ease;
+}
+
+.product-btn:hover{
+    background:#4D8577;
+
+    transform:translateY(-3px);
+}
+
+
+/* =========================
+   Testimonials
+========================= */
+
+.testimonials{
+    padding:110px 80px;
+
+    background:white;
+}
+
+/* Grid */
+
+.testimonial-grid{
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(300px,1fr));
+
+    gap:35px;
+}
+
+/* Card */
+
+.testimonial-card{
+    background:#F5F3EE;
+
+    padding:35px;
+
+    border-radius:28px;
+
+    transition:0.3s ease;
+}
+
+.testimonial-card:hover{
+    transform:translateY(-8px);
+}
+
+/* Review text */
+
+.testimonial-card p{
+    color:#555;
+
+    line-height:1.9;
+
+    font-size:17px;
+
+    margin-bottom:30px;
+}
+
+/* Customer info */
+
+.customer-info{
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+}
+
+/* Customer image */
+
+.customer-info img{
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+}
+
+/* Name */
+
+.customer-info h4{
+    color:#2F5F5C;
+
+    margin-bottom:5px;
+}
+
+/* Location */
+
+.customer-info span{
+    color:#777;
+
+    font-size:14px;
+}
+
+/* =========================
+   CTA Section
+========================= */
+
+.cta-section{
+    padding:120px 40px;
+
+    background:#1F3F3D;
+    /* background:
+    linear-gradient(
+        rgba(47,95,92,0.92),
+        rgba(47,95,92,0.92)
+    ); */
+
+    background-size:cover;
+
+    background-position:center;
+
+    text-align:center;
+}
+
+/* Content */
+
+.cta-content{
+    max-width:850px;
+
+    margin:auto;
+}
+
+/* Small tag */
+
+.cta-content span{
+    display:inline-block;
+
+    background:rgba(255,255,255,0.12);
+
+    color:#F5F3EE;
+
+    padding:10px 20px;
+
+    border-radius:50px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+}
+
+/* Heading */
+
+.cta-content h2{
+    color:#F5F3EE;
+
+    font-size:58px;
+
+    line-height:1.2;
+
+    margin-bottom:25px;
+}
+
+/* Paragraph */
+
+.cta-content p{
+    color:rgba(255,255,255,0.85);
+
+    font-size:19px;
+
+    line-height:1.8;
+
+    margin-bottom:40px;
+}
+
+/* Buttons */
+
+.cta-buttons{
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+}
+
+/* Primary */
+
+.cta-primary{
+    text-decoration:none;
+
+    background:#F5F3EE;
+
+    color:#2F5F5C;
+
+    padding:14px 34px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:0.3s ease;
+}
+
+.cta-primary:hover{
+    transform:translateY(-3px);
+
+    background:#ffffff;
+}
+
+/* Secondary */
+
+.cta-secondary{
+    text-decoration:none;
+
+    background:rgba(255,255,255,0.12);
+
+    color:#F5F3EE;
+
+    padding:14px 34px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    backdrop-filter:blur(8px);
+
+    transition:0.3s ease;
+}
+
+.cta-secondary:hover{
+    background:rgba(255,255,255,0.20);
+
+    transform:translateY(-3px);
+}

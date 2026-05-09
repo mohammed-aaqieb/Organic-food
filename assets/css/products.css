@@ -2,6 +2,7 @@
         
         body {
             background: #f5f0e6;
+            /* background:#F5F3EE;   */
             font-family: Poppins, sans-serif;
         }
         
@@ -69,8 +70,9 @@
         /*  */
         
         body {
-            /* background: #f5f0e6; */
-            background: #a8bf7b;
+            background: #f5f0e6;
+            /* background: #a8bf7b; */
+            /* background:#F5F3EE; */
         }
         
         h1 {
@@ -106,7 +108,8 @@
         }
         
         .product-card {
-            background: beige;
+            /* background: beige; */
+            background:#F5F3EE;
             border-radius: 24px;
             padding: 20px;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
