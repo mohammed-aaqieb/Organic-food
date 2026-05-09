@@ -135,14 +135,14 @@ const products = [{
     {
         name: "Organic Potato",
         category: "vegetable",
-        image: "./assets/images/vegetables/potato.png",
+        image: "./assets/images/vegetables/potato.jpg",
         description: "Naturally grown potatoes with rich taste",
         price: 40
     },
     {
         name: "Organic Carrot",
         category: "vegetable",
-        image: "./assets/images/vegetables/carrot.png",
+        image: "./assets/images/vegetables/carrot.jpg",
         description: "Crunchy organic carrots full of nutrients",
         price: 70
     }
