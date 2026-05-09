@@ -126,6 +126,13 @@ const products = [{
         price: 180
     },
     {
+        name: "Organic Pineapple",
+        category: "fruit",
+        image: "./assets/images/fruits/pineapple2.jpg",
+        description: "Tropical and Sweet organic pineapples good for health and immunity",
+        price: 180
+    },
+    {
         name: "Organic Tomato",
         category: "vegetable",
         image: "./assets/images/vegetables/Tomato.jpg",
@@ -145,5 +152,48 @@ const products = [{
         image: "./assets/images/vegetables/carrot.jpg",
         description: "Crunchy organic carrots full of nutrients",
         price: 70
+    },
+    {
+        name: "Organic Cucumber",
+        category: "vegetable",
+        image: "./assets/images/vegetables/cucumbar.jpg",
+        description: "Refreshing organic cucumbers, perfect for salads and hydration",
+        price: 50
+    },
+    {
+        name: "Organic Cabbage",
+        category: "vegetable",
+        image: "./assets/images/vegetables/cabage.jpg",
+        description: "Crisp and fresh organic cabbage, ideal for stir-fries and salads",
+        price: 60
+    },
+    {
+        name: "Organic Broccoli",
+        category: "vegetable",
+        image: "./assets/images/vegetables/broccoli.jpg",
+        description: "Nutritious organic broccoli, great for steaming and roasting",
+        price: 80
+    },
+    {
+        name: "Organic Spinach",
+        category: "vegetable",
+        image: "./assets/images/vegetables/spinach.jpg",
+        description: "Fresh organic spinach, perfect for helthy salads ",
+        price: 45
+    },
+    {
+        name: "Organic Bell Papper",
+        category: "vegetable",
+        image: "./assets/images/vegetables/Bell Papper.jpg",
+        description: "Colorful organic bell peppers",
+        price: 60
+
+    },
+    {
+        name: "Organic Onion",
+        category: "vegetable",
+        image: "./assets/images/vegetables/Onion.jpg",
+        description: "Aromatic organic onions, essential for cooking",
+        price: 40
     }
 ];
