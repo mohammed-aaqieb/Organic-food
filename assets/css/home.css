@@ -329,3 +329,117 @@
     height: 320px;
   }
 }
+
+
+/* =========================
+   Why Choose Us
+========================= */
+
+.why-us{
+    padding:110px 80px;
+
+    background:white;
+}
+
+/* Header */
+
+.section-header{
+    text-align:center;
+
+    max-width:750px;
+
+    margin:auto auto 70px;
+}
+
+.section-header span{
+    display:inline-block;
+
+    background:#DCEEE6;
+
+    color:#2F5F5C;
+
+    padding:10px 20px;
+
+    border-radius:50px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+}
+
+.section-header h2{
+    font-size:52px;
+
+    color:#2F5F5C;
+
+    margin-bottom:20px;
+
+    line-height:1.2;
+}
+
+.section-header p{
+    color:#666;
+
+    line-height:1.8;
+
+    font-size:18px;
+}
+
+/* Grid */
+
+.why-grid{
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(240px,1fr));
+
+    gap:35px;
+}
+
+/* Cards */
+
+.why-card{
+    background:#F5F3EE;
+
+    padding:45px 30px;
+
+    border-radius:28px;
+
+    text-align:center;
+
+    transition:0.3s ease;
+}
+
+.why-card:hover{
+    transform:translateY(-8px);
+}
+
+/* Icons */
+
+.why-card img{
+    width:80px;
+
+    height:80px;
+
+    object-fit:contain;
+
+    margin-bottom:25px;
+}
+
+/* Text */
+
+.why-card h3{
+    color:#2F5F5C;
+
+    font-size:24px;
+
+    margin-bottom:15px;
+}
+
+.why-card p{
+    color:#666;
+
+    line-height:1.7;
+}
