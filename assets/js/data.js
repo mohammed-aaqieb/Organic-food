@@ -13,6 +13,27 @@ const products = [{
         price: 130
     },
     {
+    name: "Organic Mango",
+    category: "fruit",
+    image: "./assets/images/fruits/mango.png",
+    description: "Sweet and juicy organic mangoes full of tropical flavor",
+    price: 220
+    },
+    {
+    name: "Organic Papaya",
+    category: "fruit",
+    image: "./assets/images/fruits/papaya.jpg",
+    description: "Naturally ripened papayas packed with vitamins and fiber",
+    price: 120
+    },
+    {
+    name: "Organic Pomegranate",
+    category: "fruit",
+    image: "./assets/images/fruits/pomegranate.png",
+    description: "Healthy organic pomegranates rich in nutrients and taste",
+    price: 190
+    },
+    {
         name: "Organic Orange",
         category: "fruit",
         image: "./assets/images/fruits/orange.jpg",
