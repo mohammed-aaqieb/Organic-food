@@ -109,7 +109,7 @@
         
         .product-card {
             /* background: beige; */
-            background:#F5F3EE;
+            background: #F5F3EE;
             border-radius: 24px;
             padding: 20px;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
@@ -155,4 +155,30 @@
         
         .product-card button:hover {
             background: #256f46;
+        }
+        /* Add this in products.css */
+        
+        .cart-message {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            background: #2D5A27;
+            color: #F5F5DC;
+            padding: 16px 24px;
+            border-radius: 14px;
+            font-size: 16px;
+            font-weight: 500;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            opacity: 0;
+            transform: translateY(-30px);
+            transition: 0.5s ease;
+            z-index: 9999;
+            pointer-events: none;
+            left: 30px;
+            right: auto;
+        }
+        
+        .cart-message.show {
+            opacity: 1;
+            transform: translateY(0);
         }

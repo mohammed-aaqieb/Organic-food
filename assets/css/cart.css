@@ -42,3 +42,17 @@ body {
 .cart-total h2 {
     color: #2e8b57;
 }
+
+.cart-card button {
+    margin-top: 10px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cart-card button:hover {
+    background: #b02a37;
+}
