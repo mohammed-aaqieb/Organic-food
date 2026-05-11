@@ -6,10 +6,11 @@
 }
 
 #heroimg {
-  background-image: url("../images/banners/hero3.jpg");
+  /* background-image: url("../images/banners/hero3.jpg"); */
+  background-image: url("../images/banners/heroimg.png");
   background-size: cover;
   background-position: center;
-  height: 120vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +34,8 @@
 }
 
 .hero-content h1 {
-  color: #f5f3ee;
+  /* color: #f5f3ee; */
+  color: #0B3022;
 
   font-size: 64px;
 
@@ -46,7 +48,8 @@
 /* Paragraph */
 
 .hero-content p {
-  color: #f5f3ee;
+  /* color: #f5f3ee; */
+  color: #0B3022;;
 
   font-size: 20px;
 
